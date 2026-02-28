@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Страница-1" id="IOcvgJbBDT6rk7DbOiHY">
-    <mxGraphModel dx="811" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1219" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="yrG3UoTKzFxLwi6umvUt-11" parent="yrG3UoTKzFxLwi6umvUt-10" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[3]" vertex="1">
           <mxGeometry height="30" width="40" as="geometry" />
         </mxCell>
-        <mxCell id="yrG3UoTKzFxLwi6umvUt-12" parent="yrG3UoTKzFxLwi6umvUt-10" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 11px;&quot;&gt;PII-&amp;gt;TOKENIZE: StarVault, TLS&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="yrG3UoTKzFxLwi6umvUt-12" parent="yrG3UoTKzFxLwi6umvUt-10" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 11px;&quot;&gt;PII-&amp;gt;TOKENIZE, TLS&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="204.44444444444443" x="25.555555555555554" as="geometry" />
         </mxCell>
         <mxCell id="yrG3UoTKzFxLwi6umvUt-13" connectable="0" parent="1" style="group" value="" vertex="1">

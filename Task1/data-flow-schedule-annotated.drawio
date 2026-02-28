@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Страница-1" id="IOcvgJbBDT6rk7DbOiHY">
-    <mxGraphModel dx="901" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1216" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
         <mxCell id="Ixgj7YH9b2BMFJJ8hPba-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[1]" vertex="1">
           <mxGeometry height="30" width="40" x="35.78999999999999" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="Ixgj7YH9b2BMFJJ8hPba-7" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Courier New&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font&gt;Keycloak: OAuth2, 2FA, role:patient&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="Ixgj7YH9b2BMFJJ8hPba-7" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Courier New&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font&gt;OAuth2, 2FA, role:patient&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="264.21" x="65.79" y="350" as="geometry" />
         </mxCell>
         <mxCell id="Ixgj7YH9b2BMFJJ8hPba-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[2]" vertex="1">
@@ -90,10 +90,10 @@
         <mxCell id="Ixgj7YH9b2BMFJJ8hPba-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[4]" vertex="1">
           <mxGeometry height="30" width="40" x="400" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="Ixgj7YH9b2BMFJJ8hPba-19" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 11px;&quot;&gt;PII-&amp;gt;TOKENIZE: StarVault, TLS&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Ixgj7YH9b2BMFJJ8hPba-19" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 11px;&quot;&gt;PII-&amp;gt;TOKENIZE, TLS&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="248.59304347826088" x="434.4504347826087" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="Ixgj7YH9b2BMFJJ8hPba-20" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center; color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;PII: токены, PHI: encrypt at rest&lt;/span&gt;&lt;br style=&quot;text-align: center; color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;span style=&quot;text-align: center; color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;аудит: Elastic&lt;/span&gt;" vertex="1">
+        <mxCell id="Ixgj7YH9b2BMFJJ8hPba-20" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center; color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;PII: токены, PHI: encrypt at rest&lt;/span&gt;&lt;br style=&quot;text-align: center; color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;span style=&quot;text-align: center; color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;аудит&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="265.55" x="434.45" y="390" as="geometry" />
         </mxCell>
         <mxCell id="Ixgj7YH9b2BMFJJ8hPba-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[5]" vertex="1">
