@@ -1,0 +1,162 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Страница-1" id="IOcvgJbBDT6rk7DbOiHY">
+    <mxGraphModel dx="1216" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dyktVKkxwUneH8ho_mrn-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" target="Yt6CuV4PkbBbaL8KHA38-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="248" />
+              <mxPoint x="474" y="248" />
+            </Array>
+            <mxPoint x="409.78999999999996" y="248" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyktVKkxwUneH8ho_mrn-2" connectable="0" parent="dyktVKkxwUneH8ho_mrn-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные пациента&lt;br&gt;[PII, PHI]" vertex="1">
+          <mxGeometry relative="1" x="-0.643" as="geometry">
+            <mxPoint x="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-1" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" value="Регистрация&amp;nbsp;&lt;br&gt;пациента" vertex="1">
+          <mxGeometry height="110" width="110" x="305.79" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-12" edge="1" parent="1" source="Yt6CuV4PkbBbaL8KHA38-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.019;exitY=0.139;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="258" as="sourcePoint" />
+            <mxPoint x="305.78999999999996" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-24" connectable="0" parent="Yt6CuV4PkbBbaL8KHA38-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные для &lt;br&gt;регистрации [PII, PHI]" vertex="1">
+          <mxGeometry relative="1" x="-0.5158" y="1" as="geometry">
+            <mxPoint x="42" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Пациент" vertex="1">
+          <mxGeometry height="50" width="100" x="22" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.998;entryY=0.802;entryDx=0;entryDy=0;entryPerimeter=0;" target="Yt6CuV4PkbBbaL8KHA38-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="306" y="290" as="sourcePoint" />
+            <mxPoint x="122" y="287.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-29" connectable="0" parent="Yt6CuV4PkbBbaL8KHA38-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Договор [PII]" vertex="1">
+          <mxGeometry relative="1" x="0.0283" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-31" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="74" width="114" x="560" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-2" parent="Yt6CuV4PkbBbaL8KHA38-31" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="D3" vertex="1">
+          <mxGeometry height="30" width="100" x="-6" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt6CuV4PkbBbaL8KHA38-6" parent="Yt6CuV4PkbBbaL8KHA38-31" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Хранилище&amp;nbsp;&lt;br&gt;данных о пациентах (PII, PHI)" vertex="1">
+          <mxGeometry height="30" width="60" x="14" y="-7" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-5" parent="Yt6CuV4PkbBbaL8KHA38-31" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[6]" vertex="1">
+          <mxGeometry height="30" width="40" x="74" y="-7" as="geometry" />
+        </mxCell>
+        <mxCell id="dyktVKkxwUneH8ho_mrn-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="74" width="100" x="553" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dyktVKkxwUneH8ho_mrn-5" parent="dyktVKkxwUneH8ho_mrn-4" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="D4" vertex="1">
+          <mxGeometry height="30" width="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dyktVKkxwUneH8ho_mrn-6" parent="dyktVKkxwUneH8ho_mrn-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1C Бухгалтерия (PII)" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyktVKkxwUneH8ho_mrn-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="553" y="300" />
+            </Array>
+            <mxPoint x="410" y="300" as="sourcePoint" />
+            <mxPoint x="553" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyktVKkxwUneH8ho_mrn-8" connectable="0" parent="dyktVKkxwUneH8ho_mrn-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные клиента&lt;br&gt;[PII]" vertex="1">
+          <mxGeometry relative="1" x="-0.3418" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bISc16ettd0f-TzAzXH9-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b&gt;DFD Level 0 — Регистрация пациента&amp;nbsp;&lt;/b&gt;&lt;b&gt;(с аннотациями безопасности)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="420" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[1]" vertex="1">
+          <mxGeometry height="30" width="40" x="260" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[2]" vertex="1">
+          <mxGeometry height="30" width="40" x="260" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[4]" vertex="1">
+          <mxGeometry height="30" width="40" x="513" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[5]" vertex="1">
+          <mxGeometry height="30" width="40" x="513" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[7]" vertex="1">
+          <mxGeometry height="30" width="40" x="634" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[1]" vertex="1">
+          <mxGeometry height="30" width="40" x="22" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-28" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;Данные сообщаются устно администратору регистратуры&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="52" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-29" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="270" x="22" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-30" parent="W0JuxGkQ1_ocPzLisRHz-29" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[2]" vertex="1">
+          <mxGeometry height="30" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-31" parent="W0JuxGkQ1_ocPzLisRHz-29" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;Бумажная копия договора передается лично&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-32" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="230" x="22" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-33" parent="W0JuxGkQ1_ocPzLisRHz-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[3]" vertex="1">
+          <mxGeometry height="30" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-34" parent="W0JuxGkQ1_ocPzLisRHz-32" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;font&gt;RBAC: role:reception, audit&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="204.44444444444443" x="25.555555555555554" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-35" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="260" x="22" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-36" parent="W0JuxGkQ1_ocPzLisRHz-35" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[4]" vertex="1">
+          <mxGeometry height="30" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-37" parent="W0JuxGkQ1_ocPzLisRHz-35" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PII-&amp;gt;TOKENIZE&lt;/span&gt;, PHI: encrypt in transit (TLS),&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;аудит&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="234.44" x="25.56" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[3]" vertex="1">
+          <mxGeometry height="30" width="40" x="340.79" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-48" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="283.04347826086956" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-49" parent="W0JuxGkQ1_ocPzLisRHz-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[5]" vertex="1">
+          <mxGeometry height="30" width="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-50" parent="W0JuxGkQ1_ocPzLisRHz-48" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 11px;&quot;&gt;PII-&amp;gt;TOKENIZE: StarVault&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="234.44" x="25.56" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-54" parent="W0JuxGkQ1_ocPzLisRHz-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[6]" vertex="1">
+          <mxGeometry height="30" width="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-55" parent="W0JuxGkQ1_ocPzLisRHz-48" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;PII: токены, PHI: encrypt at rest,&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;аудит&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="248.59304347826088" x="34.45043478260868" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-56" parent="W0JuxGkQ1_ocPzLisRHz-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="[7]" vertex="1">
+          <mxGeometry height="30" width="40" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JuxGkQ1_ocPzLisRHz-57" parent="W0JuxGkQ1_ocPzLisRHz-48" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;PII: токены&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="248.59304347826088" x="34.45043478260868" y="66" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
